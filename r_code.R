@@ -6,3 +6,6 @@ median(x) # shows the median of vector x
 mad(x) # shows the median absolute deviation of vector x
 
 pnorm(-1, mean=0, sd=1)  
+pnorm(0, mean = 0, sd = 1)
+pnorm(0, mean = 1, sd = 1)
+pnorm(0, mean = -1, sd = 1)
