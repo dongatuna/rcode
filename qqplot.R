@@ -18,3 +18,16 @@ plot(theoretical.quantity, yields.z, type = "p")
 
 library(car)
 qqPlot(yields)
+
+rand.norm<-rnorm(1000) #gives 1000 normal values
+rand.f<-rf(2000, df1 = 200, df = 150)  #2000 values from F-distribution
+hist(rand.f)
+
+quantiles<-c(1, 2, 3, 4, seq(5, 95, 5), 96, 97, 98, 99)/100
+
+norm.quantiles<-quantile(rand.norm, quantiles)
+f.quantiles<-quantile(rand.f, quantiles)
+
+plot(f.quantiles, norm.quantiles)
+library(car)
+qqPlot(rand.f, distribution="norm")

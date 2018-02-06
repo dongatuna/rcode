@@ -23,3 +23,5 @@ zvalue<-(30-26.3)/sqrt(9.3)
 
 pnorm(zvalue, mean = 0, sd=1)
 sqrt(4)
+
+1-qnorm(1-0.05/2)
