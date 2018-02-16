@@ -35,6 +35,6 @@ qqPlot(z.actual)
 # find the range with 
 Ct<-qt(0.975, df=11)
 # Ct 
-#mean is 14.67
-viscosity.mean - Ct*viscosity.sd/sqrt(N) # 14.1
-viscosity.mean + Ct*viscosity.sd/sqrt(N) # 15.3
+#mean is 2.200
+viscosity.mean - Ct*viscosity.sd/sqrt(N) # 13.9
+viscosity.mean + Ct*viscosity.sd/sqrt(N) # 15.4
