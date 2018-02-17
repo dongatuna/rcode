@@ -1,5 +1,5 @@
-#1
-#calculate the mean and the variance of a 6 sided die
+# 1
+# Calculate the mean and the variance of a 6 sided die
 
 dice<-c(1, 2, 3, 4, 5, 6)
 
@@ -33,7 +33,7 @@ qqPlot(salt)
 #-------------------------------------------------------------------------
 
 #4
-rm<-read.csv('2/raw-material-properties.csv')
+rm<-read.csv('raw-material-properties.csv')
 
 head(rm)
 ncol(rm) #counts the unique number of columns
@@ -45,4 +45,6 @@ plot(rm$size1, ylab="Particle size: level 1")
 boxplot(rm$size1)
 # This fu
 identify(rm$size1, labels=rm$Sample)
+
+
 
