@@ -278,10 +278,7 @@ sd.chips # 1.07
 
 z.chips<-(40-37.4)/sd.chips
 pnorm(z.chips)
-	
-	
-	
-	
+
 	
 	
 	
