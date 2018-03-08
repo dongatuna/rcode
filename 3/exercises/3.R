@@ -9,6 +9,6 @@ length(boards$Date.Time)
 
 plot(boards$Pos1)
 
-help(text)
+
 
 # see: https://www.sixhat.net/plotting-multiple-data-series-in-r.html
