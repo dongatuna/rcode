@@ -2,7 +2,7 @@
 # import data
 batch <-read.csv('batch-yields.csv')
 
-# declare each sample to have a size of 5
+# declare each subgroup sample to have a size of 5
 N <- 5
 
 # read the head of the data (batch)
